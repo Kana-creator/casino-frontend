@@ -54,7 +54,7 @@ const GamesList: React.FC = () => {
     if (totalScore <= 0) {
       window.alert("You can't play with zero balance");
       setScore(0);
-    } else if (totalScore < 5 && totalScore > 0) {
+    } else if (totalScore < 2 && totalScore > 0) {
       window.alert("Sorry you have inserficient balance");
       setScore(0);
     } else {
