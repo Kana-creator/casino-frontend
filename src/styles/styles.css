@@ -1,0 +1,88 @@
+.App {
+  background-color: #39a;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.App .App__heading {
+  color: #ffffff;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 20px 0;
+  text-shadow: 0 0 10px 20px red;
+}
+
+.gamesList {
+  background-color: white;
+  height: 80vh;
+  border-radius: 5px;
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+.gamesList .gameFace {
+  padding: 20px;
+  background-color: white;
+  height: 70%;
+  border-radius: 5px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 10px 0;
+}
+
+@media (max-width: 748px) {
+  .gamesList {
+    width: 100%;
+  }
+}
+.game {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 3px black;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.symbol {
+  font-size: 50px;
+  border: none;
+}
+
+.game__footer {
+  width: 100%;
+}
+.game__footer .submit__button {
+  background-color: #39a;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  box-shadow: 0 0 10px 1px red;
+  border: none;
+  color: white;
+  transition: all 0.2s;
+}
+.game__footer .submit__button:active {
+  transform: scale(0.7);
+}
+
+.total__score {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
