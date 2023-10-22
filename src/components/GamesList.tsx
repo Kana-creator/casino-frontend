@@ -140,11 +140,7 @@ const GamesList: React.FC = () => {
       setTotalscore(totalScore + playScore);
       window.alert(`You have score ${playScore}`);
     } else {
-      // if (totalScore >= 2) {
       setTotalscore(totalScore - 2);
-      // } else {
-      //   window.alert("Sorry you have inserficient balance");
-      // }
     }
   };
 
